@@ -1,0 +1,12 @@
+# Versions are pinned so the project behaves the same on every computer.
+# Tested with Python 3.12.
+
+langchain==1.2.11               # create_agent + agent middleware
+langchain-core==1.2.18          # @tool, prompts, LCEL runnables
+langchain-community==0.4.1      # PyPDFLoader
+langchain-openrouter
+requests==2.34.2                # live FX rate lookup
+tavily-python
+python-dotenv
+langchainhub
+streamlit
